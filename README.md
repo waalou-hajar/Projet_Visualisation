@@ -10,4 +10,3 @@ Dans notre projet nous allons étudier l’impact de la pandémie COVID-19 sur l
 
 Lien :
 
-https://waalou-hajar.github.io/Data_Visualisation/
