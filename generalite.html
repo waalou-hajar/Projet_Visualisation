@@ -1,0 +1,264 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <link href="./Style1.css" rel="stylesheet">
+    <link href="bootstrap.css" rel="stylesheet">
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <link rel="shortcut icon" href="th.jpg">
+    <script src="https://bootswatch.com/_vendor/jquery/dist/jquery.min.js"></script>
+    <script src="https://bootswatch.com/_vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <meta charset="ISO-8859-1">
+    <title>Vue général </title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color:rgb(20, 20, 92) ">
+        <a class="navbar-brand" href="accueil.html">Accueil</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01"
+            aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarColor01">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item ">
+                    <a class="nav-link" href="index.html">Objectif principal
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link  " href="generalite.html" >Vue Générale</a>
+                   
+                </li>
+                
+                
+                <li class="nav-item ">
+                    <a class="nav-link" href="dashboards.html">Tableaux de bord
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class='ctn'>
+        <h1 class="title">Généralités</h1>
+    
+
+    </div>
+            <!-- Ici l graphe 1 matrice de correlation  -->
+            <div class='tableauPlaceholder' id='viz1614893875253' style='position: relative'><noscript><a href='#'><img
+                            alt=' '
+                            src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;vi&#47;visualisation_tableau&#47;correlationentrelescolonnes&#47;1_rss.png'
+                            style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'>
+                    <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                    <param name='embed_code_version' value='3' />
+                    <param name='site_root' value='' />
+                    <param name='name' value='visualisation_tableau&#47;correlationentrelescolonnes' />
+                    <param name='tabs' value='no' />
+                    <param name='toolbar' value='yes' />
+                    <param name='static_image'
+                        value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;vi&#47;visualisation_tableau&#47;correlationentrelescolonnes&#47;1.png' />
+                    <param name='animate_transition' value='yes' />
+                    <param name='display_static_image' value='yes' />
+                    <param name='display_spinner' value='yes' />
+                    <param name='display_overlay' value='yes' />
+                    <param name='display_count' value='yes' />
+                    <param name='language' value='fr' />
+                </object></div>
+            <script
+                type='text/javascript'>                    var divElement = document.getElementById('viz1614893875253'); var vizElement = divElement.getElementsByTagName('object')[0]; vizElement.style.width = '100%'; vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px'; var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+            <div class='box'>
+                <p class='description'>
+                    Ici c'est une matrice de correlation pour voir la correltion entre les differnts champs dans notre
+                    Data Set .
+                </p>
+                <hr />
+            </div>
+        </div>
+
+        <div>
+            <!-- Ici l graphe 2 correlation entre cas confirmer et les cas deces   -->
+
+            <div class='tableauPlaceholder' id='viz1614894551593' style='position: relative'><noscript><a href='#'><img
+                            alt=' '
+                            src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;vi&#47;visualisation_tableau&#47;Correlationentrelescasconfimeetlescasdcs&#47;1_rss.png'
+                            style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'>
+                    <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                    <param name='embed_code_version' value='3' />
+                    <param name='site_root' value='' />
+                    <param name='name' value='visualisation_tableau&#47;Correlationentrelescasconfimeetlescasdcs' />
+                    <param name='tabs' value='no' />
+                    <param name='toolbar' value='yes' />
+                    <param name='static_image'
+                        value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;vi&#47;visualisation_tableau&#47;Correlationentrelescasconfimeetlescasdcs&#47;1.png' />
+                    <param name='animate_transition' value='yes' />
+                    <param name='display_static_image' value='yes' />
+                    <param name='display_spinner' value='yes' />
+                    <param name='display_overlay' value='yes' />
+                    <param name='display_count' value='yes' />
+                    <param name='language' value='fr' />
+                </object></div>
+            <script
+                type='text/javascript'>                    var divElement = document.getElementById('viz1614894551593'); var vizElement = divElement.getElementsByTagName('object')[0]; vizElement.style.width = '100%'; vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px'; var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+            <div class='box'>
+                <p class='description'>
+                    On peut remarquer ici que il y a une Correlation linéaire entre les cas confimée et les cas décès
+                    .
+                </p>
+                <hr />
+            </div>
+        </div>
+
+        <div>
+            <!-- Ici l graphe 3 line chart   -->
+            <div class='tableauPlaceholder' id='viz1614895537676' style='position: relative'><noscript><a href='#'><img
+                            alt=' '
+                            src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;vi&#47;visualisation_tableau&#47;Indicedestringencepourchaquecontinent&#47;1_rss.png'
+                            style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'>
+                    <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                    <param name='embed_code_version' value='3' />
+                    <param name='site_root' value='' />
+                    <param name='name' value='visualisation_tableau&#47;Indicedestringencepourchaquecontinent' />
+                    <param name='tabs' value='no' />
+                    <param name='toolbar' value='yes' />
+                    <param name='static_image'
+                        value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;vi&#47;visualisation_tableau&#47;Indicedestringencepourchaquecontinent&#47;1.png' />
+                    <param name='animate_transition' value='yes' />
+                    <param name='display_static_image' value='yes' />
+                    <param name='display_spinner' value='yes' />
+                    <param name='display_overlay' value='yes' />
+                    <param name='display_count' value='yes' />
+                    <param name='language' value='fr' />
+                </object></div>
+            <script
+                type='text/javascript'>                    var divElement = document.getElementById('viz1614895537676'); var vizElement = divElement.getElementsByTagName('object')[0]; vizElement.style.width = '100%'; vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px'; var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+            <div class='box'>
+                <p class='description'>
+                    Ici, nous avons visualisé l’évolution de l’indice de stringence par mois pour chaque continent
+                    et on a différencié bien évidement entre continent par couleur .
+                </p>
+                <hr />
+            </div>
+        </div>
+
+        <div>
+            <!-- Ici Graphe 4-->
+            <div class='tableauPlaceholder' id='viz1614895782670' style='position: relative'><noscript><a href='#'><img
+                            alt=' '
+                            src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;vi&#47;visualisation_tableau&#47;CasconfirmsetCasdcs&#47;1_rss.png'
+                            style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'>
+                    <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                    <param name='embed_code_version' value='3' />
+                    <param name='site_root' value='' />
+                    <param name='name' value='visualisation_tableau&#47;CasconfirmsetCasdcs' />
+                    <param name='tabs' value='no' />
+                    <param name='toolbar' value='yes' />
+                    <param name='static_image'
+                        value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;vi&#47;visualisation_tableau&#47;CasconfirmsetCasdcs&#47;1.png' />
+                    <param name='animate_transition' value='yes' />
+                    <param name='display_static_image' value='yes' />
+                    <param name='display_spinner' value='yes' />
+                    <param name='display_overlay' value='yes' />
+                    <param name='display_count' value='yes' />
+                    <param name='language' value='fr' />
+                </object></div>
+            <script
+                type='text/javascript'>                    var divElement = document.getElementById('viz1614895782670'); var vizElement = divElement.getElementsByTagName('object')[0]; vizElement.style.width = '100%'; vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px'; var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+            <div class='box'>
+                <p class='description'>
+                    Dans ce graphique nous pouvons visualisé les cas confirmés et cas décès de chaque pays par
+                    mois en utilisant dual combination, et nous pouvons appliquer un filtre par pays.
+                </p>
+                <hr />
+            </div>
+        </div>
+
+        <div>
+            <!-- graphe  5 Carte -->
+            <div class='tableauPlaceholder' id='viz1614896127630' style='position: relative'><noscript><a href='#'><img
+                            alt=' '
+                            src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;vi&#47;visualisation_tableau&#47;Population&#47;1_rss.png'
+                            style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'>
+                    <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                    <param name='embed_code_version' value='3' />
+                    <param name='site_root' value='' />
+                    <param name='name' value='visualisation_tableau&#47;Population' />
+                    <param name='tabs' value='no' />
+                    <param name='toolbar' value='yes' />
+                    <param name='static_image'
+                        value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;vi&#47;visualisation_tableau&#47;Population&#47;1.png' />
+                    <param name='animate_transition' value='yes' />
+                    <param name='display_static_image' value='yes' />
+                    <param name='display_spinner' value='yes' />
+                    <param name='display_overlay' value='yes' />
+                    <param name='display_count' value='yes' />
+                    <param name='language' value='fr' />
+                </object></div>
+            <script
+                type='text/javascript'>                    var divElement = document.getElementById('viz1614896127630'); var vizElement = divElement.getElementsByTagName('object')[0]; vizElement.style.width = '100%'; vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px'; var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+            <div class='box'>
+                <p class='description'>
+                  Ici population dans chaque pays .
+                </p>
+                <hr />
+            </div>
+        </div>
+
+
+        
+    </div>
+</body>
+</br>
+</br>
+<footer class="footer-distributed">
+
+    <div class="footer-left">
+
+        <h3>Covid<span>19</span></h3>
+
+    </br>
+</br>
+</br>
+</br>
+        <p class="footer-company-name">Company Name © 2021</p>
+    </div>
+
+    <div class="footer-center">
+
+        <div>
+            <i class="fa fa-map-marker"></i>
+            <p><span>Faculté Des Science Ben M'sik </span> Maroc , Casablanca </p>
+        </div>
+
+        
+        <div>
+            <i class="fa fa-envelope"></i>
+            <p> <a href="mailto:support@company.com">hasnaaboukhadda@gmail.com</a> </br>
+                <a href="mailto:support@company.com">hajarwaalou@gmail.com</a>
+              </p>        </div>
+
+    </div>
+
+    <div class="footer-right">
+
+        <p class="footer-company-about">
+            <span>About cet  Article</span>
+            Réalisation d'un Site Web pour representer notre Projet Data Visualisation , on utilise Outil Tableau pour visualer les graphes .
+        </p>
+
+        <div class="footer-icons">
+
+            <a href="https://www.linkedin.com/in/hajar-waalou-9a82451a4/"><i class="fa fa-linkedin"></i></a>
+            <a href="https://github.com/waalou-hajar"><i class="bi bi-github"></i>
+            </a>
+
+        </div>
+
+    </div>
+
+</footer>
+
+</html>

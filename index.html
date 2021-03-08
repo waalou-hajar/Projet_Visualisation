@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <link href="./Style1.css" rel="stylesheet">
+    <link href="bootstrap.css" rel="stylesheet">
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <link rel="shortcut icon" href="th.jpg">
+    <script src="https://bootswatch.com/_vendor/jquery/dist/jquery.min.js"></script>
+    <script src="https://bootswatch.com/_vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <meta charset="ISO-8859-1">
+    <title>Vue général </title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color:rgb(20, 20, 92) " >
+        <a class="navbar-brand" href="accueil.html">Accueil</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01"
+            aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarColor01">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item ">
+                    <a class="nav-link" href="index.html">Objectif principal
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link  " href="generalite.html" >Vue Générale</a>
+                   
+                </li>
+                
+                
+                <li class="nav-item ">
+                    <a class="nav-link" href="dashboards.html">Tableaux de bord
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    
+  <div class="container">
+    <div>
+      <h1 class="title">Objectif Principal</h1>
+    </div>
+    <div>
+      <p>Dataviz est la version raccourcie de data visualisation. Comme son nom l’indique, il s’agit
+        d’outils pour mettre en forme de manière lisible un ensemble de données brutes. <br />
+        Le but de notre projet est de résumer et visualiser l’information pertinente contenue dans
+         un jeu de données. Pour la mise en pratique, nous allons utiliser un outil très puissant appelé
+         Tableau.
+        <br />Tableau permet de créer des tableaux, des graphiques, des infographies, des cartes à partir
+        de n’importe quelles données (SQL, Hadoop, Excel…). L’interface est particulièrement
+        intuitive et permet de transférer les données par simple glisser-déposer. Les graphiques sont
+        mis à jour en temps réel et partageables.
+      
+
+      </p>
+    </div>
+    <div>
+      
+        <h4>Problématique : </h4>
+      
+      <p>
+        Dans notre projet nous allons étudier l’impact de la pandémie COVID-19 sur l’économie
+        mondiale de chaque pays. <br/>
+        
+      </p>
+        <h4>Démarche</h4>
+      
+      <p>
+        À l’aide de Tableau nous allons créer plusieurs graphiques en visualisant différentes
+         informations contenues dans notre modèle qui examine l'impact potentiel de COVID-19 sur
+         l'économie des 182 pays. Par la suite nous allons utiliser des tableaux de bord représentant
+         un ensemble de plusieurs vues, permettant de comparer simultanément une variété de
+        données. Par exemple, si nous disposons d'un ensemble de vues que nous examinons tous
+       les jours, nous pouvons créer un tableau de bord qui affiche toutes les vues à la fois, plutôt
+          que de naviguer vers des feuilles de calcul distinctes. 
+ 
+      </p>
+
+      
+        <h4> Data Set </h4>
+      
+      <p>
+        Data Set est sur Kggle cliquez <a href="https://www.kaggle.com/khotijahs1/analysis-covid-19-impact-using-data-visualization/?select=raw_data.csv">
+        Ici </a>pour le voir  . <br />
+        Ce modèle examine l’impact de la pandémie COVID-19 sur l’économie mondiale de chaque pays.
+ 
+
+      </p>
+    </div>
+
+    <div class="conclusion">
+      <h2> Les attributs </h2>
+      
+      <ul>
+        <li>
+         <i>CODE</i>  : les codes alphabétiques sur 3 caractères pour les noms de pays.
+        </li>
+        <li>
+         <i>COUNTRY</i>  : les pays.
+        </li>
+        <li>
+         <i>DATE</i>  : la date représentée par YY-MM-DD.
+        </li>
+        <li>
+         <i>HDI (Human Development Index) </i> : L’indice de développement humain, c’est un
+          critère pour évaluer le développement d'un pays.
+        </li>
+        <li>
+         <i>TC (Total Cases)</i>  : les cas confirmés.
+        </li>
+        <li>
+          <i>TD (Total Deaths)</i> : les cas décès. 
+        </li>
+        <li>
+         <i> STI (Stringency Index)</i>  : l’indice de stringence représente les politiques de
+            confinement (les fermetures d'écoles et de lieux de travail, les événements publics,
+                 les transports en commun), les politiques de maintien à la maison.
+        </li>
+        <li>
+          <i>POP</i>  : la population.
+        </li>
+         
+        <li>
+        <i>GDPCAP (Gdp Per Capita)</i> : le PIB par habitant
+        </li>
+      </ul>
+      
+    </div>
+
+    <h4> Ajout de la colonne continent </h4>
+      
+      <p>
+        Nous ajoutons la colonne continent (en utilisant python) qui va contenir les éléments
+         suivants :  . <br />
+        <ul>
+          <li>Europe</li>
+          <li>Asie</li>
+          <li>Afrique</li>
+          <li>North America</li>
+          <li>South America</li>
+          <li>Australia and Oceania</li>
+
+        </ul> 
+        <p>Cette colonne va regrouper tous les pays contenant dans notre jeu de données afin de les
+          visualiser par la suite.</p>
+
+      </p>
+  </div>
+</body>
+
+</br>
+</br>
+<footer class="footer-distributed">
+
+  <div class="footer-left">
+
+      <h3>Covid<span>19</span></h3>
+
+  </br>
+</br>
+</br>
+</br>
+
+      <p class="footer-company-name">Company Name © 2021</p>
+  </div>
+
+  <div class="footer-center">
+
+      <div>
+          <i class="fa fa-map-marker"></i>
+          <p><span>Faculté Des Science Ben M'sik </span> Maroc , Casablanca </p>
+      </div>
+
+      
+      <div>
+          <i class="fa fa-envelope"></i>
+          <p> <a href="mailto:support@company.com">hasnaaboukhadda@gmail.com</a> </br>
+              <a href="mailto:support@company.com">hajarwaalou@gmail.com</a>
+            </p>       
+           </div>
+
+  </div>
+
+  <div class="footer-right">
+
+      <p class="footer-company-about">
+          <span>About cet  Article</span>
+          Réalisation d'un Site Web pour representer notre Projet Data Visualisation , on utilise Outil Tableau pour visualer les graphes .
+      </p>
+
+      <div class="footer-icons">
+
+          <a href="https://www.linkedin.com/in/hajar-waalou-9a82451a4/"><i class="fa fa-linkedin"></i></a>
+          <a href="https://github.com/waalou-hajar"><i class="bi bi-github"></i>
+          </a>
+
+      </div>
+
+  </div>
+
+</footer>
+
+</html>
